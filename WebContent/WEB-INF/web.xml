@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.bug.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>regbug</servlet-name>
+    <servlet-class>com.bug.regbug</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>removebug</servlet-name>
+    <servlet-class>com.bug.removebug</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>regexpert</servlet-name>
+    <servlet-class>com.bug.regexpert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>udateexptdb</servlet-name>
+    <servlet-class>com.bug.udateexptdb</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addproduct</servlet-name>
+    <servlet-class>com.bug.addproduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>postsolution</servlet-name>
+    <servlet-class>com.bug.postsolution</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>regbug</servlet-name>
+    <url-pattern>/regbug</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>removebug</servlet-name>
+    <url-pattern>/removebug</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>regexpert</servlet-name>
+    <url-pattern>/regexpert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>udateexptdb</servlet-name>
+    <url-pattern>/udateexptdb</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addproduct</servlet-name>
+    <url-pattern>/addproduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>postsolution</servlet-name>
+    <url-pattern>/postsolution</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
